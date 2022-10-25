@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="keywords" content="tucamiseta.com,camisetas,indumentaria,tienda online,futbol,deporte,ropa,encargar,talles,comprar">
+    <meta name="description" content="Compra tu camiseta de manera 100% online">
+
     <title>Encargar-Tucamiseta.com</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
@@ -18,7 +21,7 @@
     
     <nav class="navbar navbar-expand-lg bg-light">
      <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"> <img src="../../imagenes/tucamiseta.comlogo.jpg" alt="Logo Tucamiseta.com"></a>
+          <a class="navbar-brand" href="index.html"> <img src="../imagenes/tucamiseta.comlogo.jpg" alt="Logo Tucamiseta.com"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,60 +50,61 @@
         <h1>Encarganos la camiseta que mas te guste</h1>
     </span>
 
-    <form action="">
-    <div>
-        <label for="">Nombre</label>
-        <input type="text">
-    </div>
+    <main> 
+        <div class="input-group">
+            <span class="input-group-text">Nombre y Apellido</span>
+            <input type="text" aria-label="Nombres" class="form-control">
+            <input type="text" aria-label="Apellido" class="form-control">
+          </div>
 
-    <div>
-        <label for="">Apellido</label>
-        <input type="text">   
-    </div>
-
-    <div>
-        <label for="">E-mail</label>
-        <input type="email">
-    </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">E-mail</span>
+          </div>
 
     <div>
         <h4>Contanos que camiseta buscas</h4>
         <textarea name="" id="" cols="30" rows="10"></textarea>
     </div>
 
-    <div>
-        <h4>Talles</h4>
-        <label for="">S</label>
-        <input type="radio" name="talle" value="S">
-        <label for="">M</label>
-        <input type="radio" name="talle" value="M">
-        <label for="">L</label>
-        <input type="radio"name="talle" value="L">
-        <label for="">XL</label>
-        <input type="radio" name="talle" value="XL">
-    </div>
-     
-    <div>
+
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Talle</option>
+        <option value="1">XS</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+        <option value="6">XXL</option>
+      </select>
+
+     <div>
         <label for=""></label>
         <input type="submit" value="enviar">
         <label for=""></label>
         <input type="reset" value="limpiar">
-    </div>
+     </div>
     </form>
+</main>
 
-      <footer>
-        <span > 
-          <h2>contacto</h2>
-          <p>2227-625292</p>
-          <p>pedro.appello@gmail.com</p>
-          <p>calle 123 nro 456</p>
-        </span>
+<footer class="footer static-bottom footer_style">
+        <div class="container">
+            <div class="row p-5">
 
-        <div >
-          <h2> metodos de pago</h2>
-        <img class="logo" src="../../imagenes/mercado-pago.png" alt="Mercado Pago">
-        <img  class="logo"  src="../../imagenes/paypal.png" alt="PayPal">
+                <div class="col-12 col-md-8 col-md-8 text-left">
+                    <h3>Contacto</h3>
+                    <p>pedro.appello@gmail.com</p>
+                    <p>Telefono:2227625292</p>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 text-center">
+                     <h3>Redes sociales</h3>
+                    <img src="../imagenes/facebook-icono.png" alt="FACEBOOK">
+                    <img src="../imagenes/youtube-icono..png" alt="YOUTUBE">
+                    <img src="../imagenes/instagram-icono.png" alt="INSTAGRAM">
+                </div>
+            </div>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>
